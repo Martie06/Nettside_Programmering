@@ -27,3 +27,28 @@ img {
   padding: 6px;
   text-align: center;
 }
+
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 17.5%;
+  border: 0px solid green;
+  padding: 6px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
