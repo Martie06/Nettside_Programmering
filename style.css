@@ -86,7 +86,7 @@ a:active {
 ul {
   display: table;
   margin: 0 auto;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .dotted {
@@ -103,3 +103,9 @@ ul {
   background-color: #fff; 
 }
 
+.bottom_text {
+  color: #999;
+  letter-spacing: 1px;
+  font-size: 12.5px;
+  
+}
