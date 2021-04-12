@@ -1,0 +1,111 @@
+body {
+  background: #FFFFF6;
+  margin: 10px;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  background-color: #FFFFF3;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+.p2 {
+  color: #999;
+  text-align: center;
+  font-size: 23px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+img {
+  border-color: rgba(139, 69, 19, 0.64);
+  border-width: 8px;
+  border-radius: 10px;
+  width: 17%
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border: 0px solid green;
+  padding: 6px;
+  text-align: center;
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 17.5%;
+  border: 0px solid green;
+  padding: 2.4px;
+  text-align: center;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid green;
+  padding: 6px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #c02c38
+}
+
+a:visited {
+  text-decoration: none;
+  color: #c02c38
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c02c38
+}
+
+a:active {
+  text-decoration: underline;
+  color: #c02c38
+}
+
+
+ul {
+  display: table;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.dotted {
+  border: 5px dotted #861a1a;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff; }
+
+
+.dotted2 {
+  border: 3px dotted #999; 
+  border-style: none none dotted; 
+  color: #fff; 
+  background-color: #fff; 
+}
+
+.bottom_text {
+  color: #999;
+  letter-spacing: 1px;
+  font-size: 12.5px;
+  
+}
