@@ -1,7 +1,9 @@
 """Code for Binary Search
 Author: Martie
 Last edited: 31/10-2020
-Copyright 2020"""
+Copyright 2020
+
+PS: This file is for preview-purposes only"""
 
 def main():
     while True:        #Loops the code so you can restart later
