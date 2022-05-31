@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">  <!--Links Css file-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hjem | Fornebubanen</title>
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <header>
+        <img src="Bilder/2027.png" alt="2027">
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Hjem</a> </li>
+            <li> <a href="#beregn_tid">Beregn reisetid</a> </li>
+            <li> <a href="#klima_del">Klima</a> </li>
+            <li> <a href="om.html">Om</a> </li>
+        </ul>
+    </nav>
+
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sJNdaCKqgY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="tidsberegning.js"></script>
+    <section>
+        <aside><img src="Bilder/fornebubanen-kart.jpg" height="500px" alt="kart"></aside>
+        <a id="beregn_tid"><h1>Regn ut reisetiden til Oslo med Fornebubanen!</h1></a>
+        <form>Jeg skal reise fra
+            <select id="from">
+                <option value="fornebu">Fornebu</option>
+                <option value="flytaarnet">Flytårnet</option>
+                <option value="fornebuporten">Fornebuporten</option>
+                <option value="lysaker">Lysaker</option>
+                <option value="vakero">Vækerø</option>
+                <option value="skoyen">Skøyen</option>
+                <option value="majorstuen">Majorstuen</option>
+            </select>
+            <p></p>Jeg skal reise til
+            <select id="to">
+                <option value="fornebu">Fornebu</option>
+                <option value="flytaarnet">Flytårnet</option>
+                <option value="fornebuporten">Fornebuporten</option>
+                <option value="lysaker">Lysaker</option>
+                <option value="vakero">Vækerø</option>
+                <option value="skoyen">Skøyen</option>
+                <option value="majorstuen">Majorstuen</option>
+            </select>
+            <p></p>Transportmiddel
+            <select id="middel">
+                <option value="1">T-bane</option>
+                <option value="0.9">Bil</option>
+                <option value="0.6">Buss</option>
+                <option value="0.25">Sykkel</option>
+            </select>
+            <p></p>
+            <p></p>
+            <button onclick="calculate(event)">Bekreft</button>
+            <!--<input id="calculate" onclick="calculate()" type="button" value="Beregn!" />-->
+        </form>
+        <p>&nbsp;</p>
+        <div id="div2"><p>Venter på verdi</p></div>
+    </section>
+    <br><br><br>
+    <section>
+        <a id="klima_del"> <h1>Miljø og klima</h1> </a>
+            <p>Fornebubanen har fra byggestart i 2020 tatt i bruk flere nye klimaløsninger. Løsningene kan også komme naboene og anleggsarbeiderne til gode. De vil gi mindre støy og lokal forurensing fra anleggsplassene, i tillegg til å gi lavere utslipp av CO2 til atmosfæren.</p>
+            <p>Fornebubanen har fått statlig støtte til fire pionerprosjekter for mer miljøvennlig bygging. Målet er å minske utslippene fra anleggsplassene, fra håndteringen av alle steinmassene som bores og graves ut og fra betongen de skal bruke. Staten bidrar også med midler for at Fornebubanen skal finne ut hvordan det kan bli mindre plastavfall fra byggingen.</p>
+            <p>Fornebubanen har til sammen fått tildelt 12,5 millioner kroner fra fått tildelt fra Miljødirektoratets Klimasats-støtte for 2019. Arbeidet fortsetter i 2020 og årene fremover.</p>
+            <p>Les mer om Fornebubanens klimasatsing hos <a href="https://www.klimaoslo.no/2019/07/05/tiltak-for-utslippsfri-anleggsplass/">KlimaOslo</a>.</p>
+            <h2>Anleggsplassen</h2>
+            <aside><img src="Bilder/byggeplass_fornebu.png" height="500px"></aside>
+            <p>Dagens anleggsmaskiner går stort sett på diesel, og til tørking av betongstøp brukes også propan. Flere produsenter er imidlertid i gang med å utvikle nullutslippsmodeller. Fornebubanen skal kartlegge hvordan anleggsplassene kan kobles på både strøm- og fjernvarmenettet. Det vil gi grønn energi til graving, bygging og byggtørk. Vi skal også utrede hvor det er best å bruke avansert biodrivstoff. Neste skritt er å stille krav om at leverandørene bruker utslippsfrie eller fossilfrie maskiner der det er mulig. </p>
+            <h2>Massehåndtering</h2>
+            <p>Om lag to millioner kubikkmeter stein, jord og slam skal fjernes og deponeres under tunellutgravingen. Jo lenger disse massene må kjøres på dieseldrevne lastebiler, jo større blir klimagassutslippene, luftforurensingen og belastningen på veiene. Fornebubanen skal utrede hvordan så mye som mulig av massene kan bli gjenbrukt og hvordan fraktdistansene kan minimeres. Vi vil også vurdere elektriske lastebiler til frakten.</p>
+            <h2>Betong</h2>
+            <p>Produksjon av sement og betong fører til store klimagassutslipp globalt. Fornebubanen ønsker å bruke lavkarbonbetong, der utslippene er langt lavere i produksjonen enn for vanlig betong. Både Munchmuseet og det nye hovedbiblioteket i Bjørvika er bygd med lavkarbonbetong. Fornebubanen har nå fått støtte til å undersøke hvilke typer lavkarbonbetong som egner seg til tunnelbygging og om den kan produseres lokalt. Klimasats-pengene vil også bidra til å kompensere for at den miljøvennlige betongen er dyrere.</p>
+            <h2>Plast</h2>
+            <p>I Norge antas det at byggenæringen står for omtrent en firedel av klimagassutslippene fra forbrenning av plast. I tillegg er det en risiko at plastavfall fra byggeplasser havner på avveie og forurenser naturen. For å minske dette vil Fornebubanen lete etter alternativer til plast i flere produkter som brukes til byggingen. Vi vil også planlegge for å redusere den totale avfallsmengden.</p>
+
+    </section>
+</body>
+</html>
