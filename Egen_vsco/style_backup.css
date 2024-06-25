@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #FFFFF6;
+    margin: 10px;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    background-color: #FFFFF3;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #c02c38
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #c02c38
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #c02c38
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  .header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 0px solid green;
+    padding: 6px;
+    text-align: center;
+  }
+  
+  .headericons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    text-align: center;
+  }
+  
+  .p2 {
+    color: #999;
+    text-align: center;
+    font-size: 23px;
+  }
+  
+  .icons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 10%;
+    padding: 2.4px;
+  }
+  
+  ul {
+    display: table;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+  
+  .dotted {
+    border: 5px dotted #861a1a;
+    border-style: none none dotted;
+    color: #fff;
+    background-color: #fff; }
+  
+  
+  .dotted2 {
+    border: 3px dotted #999; 
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff; 
+  }
+  
+  .bottom_text {
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 12.5px;
+    
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 8%;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .gallery img{
+    width: 100%;
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 60px;
+    }
+  
+    .header {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      padding: 6px;
+      text-align: center;
+    }
+  
+    .p2 {
+      color: #999;
+      text-align: center;
+      font-size: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 2,4px;
+    }
+  
+    .icons {
+      text-align: center;
+      padding: 4px;
+      margin-left: 3px;
+      margin-right: 3px;
+      margin-bottom: 15px;
+      width: 21%;
+    }
+  
+    .container {
+      padding: 50px 8%;
+    }
+  }
